@@ -41,15 +41,34 @@ Figure 02  Encoder 8 * 3
 **PROGRAM**
 
 /* Program for Encoder 8 To 3 in Dataflow Modelling and verify its truth table in quartus using Verilog programming. 
+```
+module DE5(a,b,c,y0,y1,y2,y3,y4,y5,y6,y7);
+ input y0,y1,y2,y3,y4,y5,y6,y7;
+ output a,b,c;
+ assign a= ( y4 | y5 | y6 | y7);
+ assign b= ( y2 | y3 | y6 | y7);
+ assign c= ( y1 | y3 | y5 | y7);
+ endmodule
+```
 
-Developed by: RegisterNumber:
-*/
+Developed by: ANNIE ANJANA A RegisterNumber:24010978
+
 
 **RTL LOGIC FOR Encoder 8 To 3 in Dataflow Modelling**
 
+![image](https://github.com/user-attachments/assets/ec07c1bf-d07d-40c0-a299-8e202ff5492b)
+
+
+
+
 **TIMING DIGRAMS FOR Encoder 8 To 3 in Dataflow Modelling**
 
+![image](https://github.com/user-attachments/assets/7844b901-9b3e-4546-9f47-770588baeb59)
+
+
 **RESULTS**
+
+ Therefore the code has been successfully executed
 
 
 
